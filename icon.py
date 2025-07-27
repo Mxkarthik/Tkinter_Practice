@@ -2,13 +2,19 @@ from tkinter import *
 from PIL import ImageTk,Image
 root = Tk()
 root.title('Karthik')
-root.iconbitmap('C:/Users/maxwh/Desktop/icon.ico')
+root.iconbitmap('C:/Users/maxwh/Desktop/Tkinter Course/images/icon.ico')
+
+#my_img = ImageTk.PhotoImage(Image.open('c'))
+#my_label = Label(image=my_img)
+#my_label.pack()
+
+
+
+
+
 
 button_quit = Button(root, text="Exit Program" ,command=root.quit)
 button_quit.pack()
-
-
-
 
 
 
